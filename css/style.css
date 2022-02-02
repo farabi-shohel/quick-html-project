@@ -1,0 +1,234 @@
+/*===============================
+    COMMON CSS START HERE
+===============================*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/*===============================
+    COMMON CSS END HERE
+===============================*/
+
+/*===============================
+    Header Style Start Here
+===============================*/
+header{
+    padding: 10px 0;
+    border-bottom: 2px solid #EEF0F3;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu {
+    width: 45%;
+    margin-top: 3px;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #0F2656;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.menu ul li a:hover{
+    color: #008AFF;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/*===============================
+    HEADER STYLE END HERE
+===============================*/
+
+/*===================
+    BANNER START
+====================*/
+.banner{
+    padding: 60px 0;
+}
+.container-2{
+    width: 55%;
+    margin: 0 auto;
+}
+.banner-content{
+    text-align: center;
+    font-family: sans-serif;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0F2656;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #008AFF;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.banner-content p{
+    font-size: 16px;
+    word-spacing: 1px;
+    color: #0F2656;
+    line-height: 25px;
+    font-weight: 400;
+}
+.banner-img{
+    width: 75%;
+    margin: 0 auto;
+}
+.banner-img img{
+    width: 100%;
+}
+/*===================
+    BANNER END
+====================*/
+
+/*===================
+    SUCCESS START
+====================*/
+.success {
+    background: #fdfdfd;
+    padding: 60px 0;
+}
+.success-content {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.success-left {
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 0 10px 0 20px;
+}
+.success-left h2{
+    color: #F15767;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.success-left p{
+    font-size: 16px;
+    color: #0F2656;
+    word-spacing: 1px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}
+.success-right {
+    width: 50%;
+    float: right;
+    padding: 0 20px 0 10px;
+}
+.success-right h1{
+    font-weight: 700;
+    font-size: 42px;
+    color: #0F2656;
+    line-height: 50px;
+    margin: 0;
+}
+/*===================
+    SUCCESS END
+====================*/
+
+/*===================
+    FEATURE START
+====================*/
+.feature {
+    padding: 60px 0;
+}
+
+.container {
+}
+
+.feature-content {
+}
+
+.feature-single {
+    width: 28%;
+    color: #0F2656;
+    font-family: sans-serif;
+    padding: 30px 24px 40px;
+    float: left;
+    margin-right: 25px;
+}
+.feature-single:last-child{
+    margin-right: 0;
+}
+.pink{
+    background-color: #FDEBED;
+}
+.s-blue{
+    background-color: #EBF9F4;
+}
+.light-pink{
+    background-color: #FFF7E8;
+}
+.feature-single h2{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 20px 0 15px;
+}
+.feature-single p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    word-spacing: 1px;
+    margin: 0;
+}
+.feature-img {
+}
+.feature-img img{
+    width: 100%;
+}
+
+/*===================
+    FEATURE END
+====================*/
+
+/*===================
+    FOOTER START
+====================*/
+footer{
+    background: #008AFF;
+    text-align: center;
+    padding: 30px 0;
+    font-family: sans-serif;
+}
+.footer-content p{
+    color: #94C0FF;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-content .f-bold{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+/*===================
+    FOOTER END
+====================*/
